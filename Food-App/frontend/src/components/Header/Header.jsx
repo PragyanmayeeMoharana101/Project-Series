@@ -1,15 +1,16 @@
-import React from 'react'
 import "./header.css"
-const Header = () => {
-  return (
-    <div className='header'>
-      <div className="header-contents">
-        <h2>Order yout favorite food here</h2>
-        <p>Coose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevated your dining experience, one delicious meal at a time.</p>
-        <button>View Menu</button>
-      </div>
-    </div>
-  )
+export default function Header(){
+    return(
+        <div className="header">
+            <div className="header-content">
+            <h1>Order your <br />
+                favourite food here
+            </h1>
+            <p>
+                Choose from diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience , one delicious meal at a time 
+            </p>
+            <button>View Menu</button>
+            </div>
+        </div>
+    )
 }
-
-export default Header
